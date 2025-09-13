@@ -13,7 +13,7 @@ color: #FFD940 !important;
 text-decoration: underline;
 color: #c0dbeb !important;
 }
-.nav-link {
+.nav-link:not(.active) {
 color: antiquewhite !important;
 }
 

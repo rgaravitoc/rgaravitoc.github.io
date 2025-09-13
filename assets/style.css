@@ -20,6 +20,7 @@ text-decoration: underline;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2%;
+    margin: 2%;
 }
 
 .gallery-container {

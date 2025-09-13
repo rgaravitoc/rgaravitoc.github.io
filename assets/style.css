@@ -16,6 +16,7 @@ color: #c0dbeb !important;
 color: antiquewhite !important;
 }
 .container-nav{
+    display: flex;
 }
 .navbar-brand{
     color: antiquewhite !important;

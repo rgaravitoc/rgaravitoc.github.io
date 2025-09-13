@@ -118,6 +118,7 @@ color: antiquewhite !important;
         display: none;
     }
     .sm-icons-b {
-        display: block;
+        display: flex;
+        justify-content: space-between;
     }
 }

@@ -33,6 +33,10 @@ color: antiquewhite !important;
     color: antiquewhite !important;
 }
 
+.fab:hover{
+    color: #c0dbeb !important;
+}
+
 /*.navbar-collapse {
     position: fixed;
     top: 0;

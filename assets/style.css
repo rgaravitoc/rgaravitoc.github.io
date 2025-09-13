@@ -4,7 +4,7 @@ body { --bs-body-font-family: 'Lato';
 background-color: antiquewhite;
 }
 
-.nav-link .active {
+.active {
 text-decoration: underline;
 color: #FFD940 !important;
 }

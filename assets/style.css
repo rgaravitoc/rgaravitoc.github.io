@@ -87,9 +87,9 @@ color: antiquewhite !important;
 .gallery-container .text {
   opacity: 0;
   position: relative;
-  top: 50%;
+  top: 0%;
   right: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   color: antiquewhite;
   pointer-events: none;
   z-index: 4;
@@ -108,7 +108,11 @@ color: antiquewhite !important;
 }
 .gallery-title{
     text-align: center;
-    font-size: medium;
+    font-size: 20%;
+}
+.icon-tiny{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 @media (max-width: 768px) {
@@ -123,7 +127,6 @@ color: antiquewhite !important;
     }
     .sm-icons-b {
         display: flex;
-        justify-content: space-around;
         flex-direction: row;
     }
 }

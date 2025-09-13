@@ -108,6 +108,7 @@ color: antiquewhite !important;
 }
 .gallery-title{
     text-align: center;
+    font-size: medium;
 }
 
 @media (max-width: 768px) {

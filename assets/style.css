@@ -68,7 +68,7 @@ text-decoration: underline;
     opacity: 0.5;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .grid-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);

@@ -4,13 +4,16 @@ body { --bs-body-font-family: 'Lato';
 color: antiquewhite;
 }
 
-.nav-link active {
+.nav-link .active {
 text-decoration: underline;
 color: #FFD940 !important;
 }
 .nav-link:hover {
 text-decoration: underline;
 color: #c0dbeb !important;
+}
+.nav-link {
+color: antiquewhite !important;
 }
 .container-nav{
     display: flex;

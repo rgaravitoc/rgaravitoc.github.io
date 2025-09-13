@@ -4,9 +4,13 @@ body { --bs-body-font-family: 'Lato';
 color: antiquewhite;
 }
 
-.active {
+.nav-link.active {
 text-decoration: underline;
 color: #FFD940;
+}
+.nav-link:hover {
+text-decoration: underline;
+color: #c0dbeb;
 }
 .container-nav{
     display: flex;

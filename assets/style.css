@@ -57,7 +57,7 @@ color: antiquewhite !important;
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3%;
+    gap: 2vw;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
@@ -99,6 +99,9 @@ color: antiquewhite !important;
 .gallery-container:hover img {
     opacity: 0.5;
 }
+.sm-icons-b {
+    display: none;
+}
 
 @media (max-width: 768px) {
     .grid-container{
@@ -109,5 +112,8 @@ color: antiquewhite !important;
     }
     .sm-icons {
         display: none;
+    }
+    .sm-icons-b {
+        display: block;
     }
 }

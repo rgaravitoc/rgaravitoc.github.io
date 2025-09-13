@@ -12,6 +12,6 @@ text-decoration: underline;
     background-color: blue;
 }
 
-.nav-item, navbar-brand, navbar-toggler{
+.nav-item, .navbar-brand, .navbar-toggler{
     z-index: 999;
 }

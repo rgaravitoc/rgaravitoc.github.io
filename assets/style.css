@@ -108,7 +108,7 @@ color: antiquewhite !important;
 }
 .gallery-title{
     text-align: center;
-    font-size: 200%;
+    font-size: 4vw;
 }
 .icon-tiny{
     padding-left: 0.5rem;
@@ -128,5 +128,8 @@ color: antiquewhite !important;
     .sm-icons-b {
         display: flex;
         flex-direction: row;
+    }
+    .gallery-title{
+        font-size: 10vw;
     }
 }

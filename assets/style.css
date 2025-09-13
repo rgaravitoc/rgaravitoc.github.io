@@ -13,7 +13,7 @@ text-decoration: underline;
 .navbar-brand{
     color: antiquewhite;
 }
-.fab {
+.fab, .nav-link {
     color: antiquewhite
 }
 /*.navbar-collapse {

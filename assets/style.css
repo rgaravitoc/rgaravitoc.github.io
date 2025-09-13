@@ -93,4 +93,7 @@ color: antiquewhite !important;
     .grid-container{
     grid-template-columns: repeat(1, 1fr);
     }
+    .sm-icons {
+        display: none;
+    }
 }

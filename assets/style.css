@@ -11,3 +11,7 @@ text-decoration: underline;
     z-index: 998;
     background-color: blue;
 }
+
+.nav-item, navbar-brand, navbar-toggler{
+    z-index: 999;
+}

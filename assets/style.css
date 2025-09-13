@@ -4,13 +4,13 @@ body { --bs-body-font-family: 'Lato';
 color: antiquewhite;
 }
 
-.nav-link.active {
+.nav-link active {
 text-decoration: underline;
-color: #FFD940;
+color: #FFD940 !important;
 }
 .nav-link:hover {
 text-decoration: underline;
-color: #c0dbeb;
+color: #c0dbeb !important;
 }
 .container-nav{
     display: flex;
@@ -18,10 +18,14 @@ color: #c0dbeb;
     margin-right: 10%;
 }
 .navbar-brand{
-    color: antiquewhite;
+    color: antiquewhite !important;
 }
 .navbar {
     color: #2F99DD;
+}
+
+.fab{
+    color: antiquewhite !important;
 }
 
 /*.navbar-collapse {

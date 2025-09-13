@@ -25,6 +25,8 @@ color: antiquewhite !important;
 }
 .navbar {
     background-color: #2F99DD;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .fab{
@@ -49,7 +51,7 @@ color: antiquewhite !important;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3%;
-    margin: 6%;
+    margin: 5%;
 }
 
 .gallery-container {

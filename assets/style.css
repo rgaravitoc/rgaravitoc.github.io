@@ -13,7 +13,9 @@ text-decoration: underline;
 .navbar-brand{
     color: antiquewhite;
 }
-
+.fab {
+    color: antiquewhite
+}
 /*.navbar-collapse {
     position: fixed;
     top: 0;

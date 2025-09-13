@@ -9,7 +9,7 @@ text-decoration: underline;
 color: #FFD940 !important;
 }
 
-.nav-link:hover {
+.nav-link:hover:not(.active) {
 text-decoration: underline;
 color: #c0dbeb !important;
 }

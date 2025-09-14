@@ -45,6 +45,16 @@ color: antiquewhite !important;
     color: #c0dbeb;
 }
 
+input {
+  width: 100%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
 /*.navbar-collapse {
     position: fixed;
     top: 0;

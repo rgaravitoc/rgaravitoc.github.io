@@ -1,52 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-body { --bs-body-font-family: 'Lato'; 
-background-color: antiquewhite;
+body {
+  --bs-body-font-family: 'Lato';
+  background-color: antiquewhite;
 }
 
 .active {
-text-decoration: underline;
-color: #FFD940 !important;
+  text-decoration: underline;
+  color: #FFD940 !important;
 }
 
 .nav-link:hover:not(.active) {
-text-decoration: underline;
-color: #c0dbeb !important;
+  text-decoration: underline;
+  color: #c0dbeb !important;
 }
+
 .nav-link:not(.active) {
-color: antiquewhite !important;
+  color: antiquewhite !important;
 }
 
-.container-nav{
-    display: flex;
+.container-nav {
+  display: flex;
 }
-.navbar-brand{
-    color: antiquewhite !important;
+
+.navbar-brand {
+  color: antiquewhite !important;
 }
+
 .navbar {
-    background-color: #2F99DD;
-    padding-left: 5%;
-    padding-right: 5%;
+  background-color: #2F99DD;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.fab{
-    color: antiquewhite !important;
-    font-size: 20px;
+.fab {
+  color: antiquewhite !important;
+  font-size: 20px;
 }
 
-.fab:hover{
-    color: #c0dbeb !important;
-}
-.form-title1{
-    color: antiquewhite;
-    display: inline;
-    font-size: 1.5rem;
+.fab:hover {
+  color: #c0dbeb !important;
 }
 
-.form-title2{
-    color: #c0dbeb;
-    display: inline;
-    font-size: 1rem;
+.form-title1 {
+  color: antiquewhite;
+  display: inline;
+  font-size: 1.5rem;
+}
+
+.form-title2 {
+  color: #c0dbeb;
+  display: inline;
+  font-size: 1rem;
 }
 
 input {
@@ -57,9 +62,11 @@ input {
 input[type=text]:focus {
   background-color: #c0dbeb;
 }
+
 input[type=email]:focus {
   background-color: #c0dbeb;
 }
+
 textarea:focus {
   background-color: #c0dbeb;
 }
@@ -73,6 +80,15 @@ button[type=submit] {
   font-size: 1.5rem;
   border-radius: 12px;
   padding: 12px;
+  width: 40%;
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard */
 }
 
 input[type=button]:hover {
@@ -99,6 +115,7 @@ textarea {
   min-height: 8rem;
   font-size: 1rem;
 }
+
 /*.navbar-collapse {
     position: fixed;
     top: 0;
@@ -113,28 +130,28 @@ textarea {
     z-index: 999;
 }*/
 
-.intro-container{
-    margin-top: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 2%;
+.intro-container {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
 }
 
-.form-container{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 2%;
-    background-color: #2F99DD;
-    padding: 2%;
+.form-container {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  background-color: #2F99DD;
+  padding: 2%;
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2vw;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2vw;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 
 .gallery-container {
@@ -168,39 +185,46 @@ textarea {
 }
 
 .gallery-container:hover .text {
-    opacity: 1;
+  opacity: 1;
 }
 
 .gallery-container:hover img {
-    opacity: 0.5;
+  opacity: 0.5;
 }
+
 .sm-icons-b {
-    display: none;
+  display: none;
 }
-.gallery-title{
-    text-align: center;
-    font-size: 3.3vw;
+
+.gallery-title {
+  text-align: center;
+  font-size: 3.3vw;
 }
-.icon-tiny{
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+
+.icon-tiny {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 @media (max-width: 768px) {
-    .grid-container{
+  .grid-container {
     display: block;
-    }
-    .gallery-container{
-        margin-bottom: 3%;
-    }
-    .sm-icons {
-        display: none;
-    }
-    .sm-icons-b {
-        display: flex;
-        flex-direction: row;
-    }
-    .gallery-title{
-        font-size: 10vw;
-    }
+  }
+
+  .gallery-container {
+    margin-bottom: 3%;
+  }
+
+  .sm-icons {
+    display: none;
+  }
+
+  .sm-icons-b {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .gallery-title {
+    font-size: 10vw;
+  }
 }

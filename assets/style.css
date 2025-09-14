@@ -197,7 +197,7 @@ textarea {
   opacity: 1;
 }
 
-.gallery-container:hover img {
+.gallery-container:hover:not(.static) img {
   opacity: 0.5;
 }
 

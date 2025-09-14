@@ -40,15 +40,18 @@ color: antiquewhite !important;
 .form-title1{
     color: antiquewhite;
     display: inline;
+    font-size: 1.5rem;
 }
 
 .form-title2{
     color: #c0dbeb;
     display: inline;
+    font-size: 1rem;
 }
 
 input {
   width: 100%;
+  font-size: 1rem;
 }
 
 input[type=text] {
@@ -65,12 +68,13 @@ input[type=email] {
   box-sizing: border-box;
 }
 
-input[type=textarea] {
+textarea {
   width: 100%;
   padding: 12px;
   margin: 10px 0;
   box-sizing: border-box;
-  min-height: 8em;
+  min-height: 8rem;
+  font-size: 1rem;
 }
 /*.navbar-collapse {
     position: fixed;

@@ -39,10 +39,12 @@ color: antiquewhite !important;
 }
 .form-title1{
     color: antiquewhite;
+    display: inline;
 }
 
 .form-title2{
     color: #c0dbeb;
+    display: inline;
 }
 
 input {

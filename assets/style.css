@@ -55,13 +55,29 @@ input {
 }
 
 input[type=text]:focus {
-  background-color: lightblue;
+  background-color: #c0dbeb;
 }
 input[type=email]:focus {
-  background-color: lightblue;
+  background-color: #c0dbeb;
 }
 textarea:focus {
-  background-color: lightblue;
+  background-color: #c0dbeb;
+}
+
+input[type=button] {
+  background-color: antiquewhite;
+  border: none;
+  color: #2F99DD;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 1.5 rem;
+}
+
+input[type=button]:hover {
+  background-color: #c0dbeb;
+  font-size: 2rem;
 }
 
 input[type=text] {

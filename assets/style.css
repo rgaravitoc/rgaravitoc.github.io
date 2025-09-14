@@ -54,6 +54,16 @@ input {
   font-size: 1rem;
 }
 
+input[type=text]:focus {
+  background-color: lightblue;
+}
+input[type=email]:focus {
+  background-color: lightblue;
+}
+textarea:focus {
+  background-color: lightblue;
+}
+
 input[type=text] {
   width: 100%;
   padding: 12px;

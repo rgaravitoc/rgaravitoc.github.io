@@ -64,7 +64,7 @@ textarea:focus {
   background-color: #c0dbeb;
 }
 
-input[type=button] {
+button[type=submit] {
   background-color: antiquewhite;
   border: none;
   color: #2F99DD;

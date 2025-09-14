@@ -83,7 +83,7 @@
 
                 <!-- Projects -->
         <section id="gallery">
-            <form action="https://api.web3forms.com/submit" method="POST">
+            <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
             
                 <!-- REQUIRED: Your Access key here. Don't worry this can be public -->
                 <input type="hidden" name="access_key" value="c254b8a4-d10f-4c9d-a0f2-0443d56c9bd2">
@@ -104,8 +104,7 @@
                    Make sure its hidden by default -->
                 <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
             
-                <!-- hCaptcha: Recommended for Advanced Spam Protection. -->
-                <div class="h-captcha" data-captcha="true"></div>
+
             
                 <!-- Custom Form Data: Form data you wish to receive in email. -->
                 <h2>Name (required)</h2>
@@ -115,13 +114,28 @@
                 <h2>Message (required)</h2>
                 <textarea name="message" required></textarea>
             
+                                <!-- hCaptcha: Recommended for Advanced Spam Protection. -->
+                <div class="h-captcha" data-captcha="true"></div>
                 <button type="submit">Submit Form</button>
             
             </form>
             
             <!-- Required only if you are using hCaptcha or Advanced File Upload. -->
             <script src="https://web3forms.com/client/script.js" async defer></script>
+            <script>
+                const form = document.getElementById('contactForm');
 
+                form.addEventListener('submit', function (e) {
+
+                    const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
+
+                    if (!hCaptcha) {
+                        e.preventDefault();
+                        alert("Please fill out captcha field")
+                        return
+                    }
+                });
+            </script>
             
         </section>
 

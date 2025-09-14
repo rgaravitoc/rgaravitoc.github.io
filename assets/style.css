@@ -154,6 +154,15 @@ textarea {
   margin-bottom: 5%;
 }
 
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2vw;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
 .gallery-container {
   aspect-ratio: 1/ 1;
   display: flex;
@@ -208,6 +217,9 @@ textarea {
 
 @media (max-width: 768px) {
   .grid-container {
+    display: block;
+  }
+  .grid-container2 {
     display: block;
   }
 

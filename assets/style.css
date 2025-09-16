@@ -96,6 +96,10 @@ input[type=button]:hover {
   font-size: 2rem;
 }
 
+.bolder {
+  font-weight: 900
+}
+
 input[type=text] {
   width: 100%;
   padding: 12px;

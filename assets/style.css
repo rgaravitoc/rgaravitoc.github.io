@@ -116,7 +116,6 @@ input[type=button]:hover {
   font-size: 1.5rem;
   border-radius: 12px;
   padding: 12px;
-  width: 40%;
   -webkit-user-select: none;
   /* Safari */
   -moz-user-select: none;

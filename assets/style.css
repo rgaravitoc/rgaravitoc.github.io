@@ -108,9 +108,9 @@ input[type=button]:hover {
 }
 
 .button-back {
-  background-color: antiquewhite;
+  background-color: #2F99DD;
   border: none;
-  color: #2F99DD;
+  color: antiquewhite;
   text-decoration: none;
   cursor: pointer;
   font-size: 1.5rem;

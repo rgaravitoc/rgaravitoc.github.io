@@ -102,7 +102,7 @@ button[type=submit] {
   /* Standard */
 }
 
-input[type=button]:hover {
+button[type=submit]:hover {
   background-color: #93c3df;
   font-size: 2rem;
 }

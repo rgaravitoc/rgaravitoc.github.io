@@ -124,7 +124,7 @@ input[type=button]:hover {
   /* IE10+/Edge */
   user-select: none;
   /* Standard */
-}
+} 
 
 .button-back:hover {
   background-color: #c0dbeb;

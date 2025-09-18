@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proyectos personales - El Arte de Renzo Garavito</title>
+    <title>Sobre mí - El Arte de Renzo Garavito</title>
     <style></style>
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -19,7 +19,7 @@
                 <div>
                     <a href="/pages/es/index.html" class="navbar-brand mb-0" style="margin: 0; padding: 0;">
                         <ul style="list-style-type: none; margin: 0; padding: 0;">
-                        <li class="h2 mb-0">El Arte de</li>
+                        <li class="h2 mb-0">El Arte de </li>
                         <li class="h1 mb-0"><b>RENZO GARAVITO</b></li>
                         </ul>
                     </a>
@@ -43,10 +43,10 @@
                             <a href="/pages/es/index.html" class="nav-link h4">PaleoArte</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/pages/es/personal.html" class="nav-link active h4">Proyectos Personales</a>
+                            <a href="/pages/es/personal.html" class="nav-link h4">Proyectos Personales</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/pages/es/about.html" class="nav-link h4">Sobre mí/Contáctame</a>
+                            <a href="/pages/es/about.html" class="nav-link active h4">Sobre mí/Contáctame</a>
                         </li>
                         <li>
                             <ul class="navbar-nav sm-icons-b" style="list-style-type: none;">
@@ -60,9 +60,9 @@
         </nav>
         <div>
             <ul class="navbar-nav" style="list-style-type: none; display: flex; justify-content: flex-end; flex-direction: row; padding-left: 5%; padding-right: 5%;">
-                <li class="nav-item icon-tiny"><a class="nav-link" href="/pages/personal.html"><span class="fi fi-us"></span></a></li>
+                <li class="nav-item icon-tiny"><a class="nav-link" href="#"><span class="fi fi-us"></span></a></li>
                 <li class="nav-item icon-tiny"></li>
-                <li class="nav-item icon-tiny"><a class="nav-link" href="/pages/es/personal.html"><span class="fi fi-co"></span></a></li>
+                <li class="nav-item icon-tiny"><a class="nav-link" href="#"><span class="fi fi-co"></span></a></li>
             </ul>
             <hr style="margin: 0; padding: 0;">
         </div>
@@ -73,27 +73,77 @@
         <!-- Intro Section -->
         <section id="intro">
             <div class="intro-container">
-                <p style="text-align:center"><b>Welcome to my portfolio.</b>
-                <br>Here you’ll find a variety of personal projects ranging from illustration to graphic design work and video game art.
+                <p style="text-align:center"><h1 class="bolder"><b>About me</b></h1>
                 <br>
-                <br>Click on an image to see the project information, process steps and other additional materials.</p>
+                <br>Soy Renzo Garavito, geólogo y paleontólogo colombiano, trabajando como contratista en el Servicio Geológico Colombiano y realizando trabajos de ilustración a tiempo parcial. 
+                <br>
+                <br>Disponible actualmente para trabajos freelance de ilustración o diseño gráfico. 
+                <br>Para solicitar un presupuesto o una licencia para una obra de arte existente, <b>rellene el siguiente formulario</b> o, si lo prefiere, envíeme un correo electrónico a <b>renzogaravito@gmail.com.</b>. 
+                <br>Por favor, especifique detalladamente qué tipo de trabajo le interesa solicitar.</p>
+                <br>
             </div>
         </section>
 
                 <!-- Projects -->
-        <section id="gallery">
-            <div class="grid-container">
-                    <div class="gallery-container static" style="background-color: rgb(10 12 13); justify-content: center;">
-                    <div class="gallery-title text unselectable" style="opacity: 1; position: unset; transform: unset;"><b>Próximamente</b></div>
-                    </div>
+        <section id="form">
+            <div class="form-container">
+            <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+            
+                <!-- REQUIRED: Your Access key here. Don't worry this can be public -->
+                <input type="hidden" name="access_key" value="c254b8a4-d10f-4c9d-a0f2-0443d56c9bd2">
+            
+                <!-- Optional: Subject an be prefilled using type="hidden"
+                   or type="text" for normal user submitted input -->
+                <input type="hidden" name="subject" value="New Message from The Art of Renzo Garavito">
+            
+                <!-- Optional: From Name you want to see in the email
+                   Default is "Notifications". you can overwrite here -->
+                <input type="hidden" name="from_name" value="The Art of Renzo Garavito">
+            
+                <!-- Optional: Custom Redirection or Thank you Page
+                   Make sure you add full URL including https:// -->
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            
+                <!-- Optional: But Recommended: To Prevent SPAM Submission.
+                   Make sure its hidden by default -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            
 
-                    <div class="gallery-container static" style="background-color: rgb(10 12 13); justify-content: center;">
-                    <div class="gallery-title text unselectable" style="opacity: 1; position: unset; transform: unset;"><b>Próximamente</b></div>
-                    </div>
+            
+                <!-- Custom Form Data: Form data you wish to receive in email. -->
+                <div style="padding-bottom: 10px;"><h3 class="form-title1"><b>Nombre</b></h3><h3 class="form-title2"> (required)</h3></div>
+                <input type="text" name="First Name" required>
+                <div style="padding-bottom: 20px;"></div>
+                <div style="padding-bottom: 10px;"><h3 class="form-title1"><b>E-mail</b></h3><h3 class="form-title2"> (required)</h3></div>
+                <input type="email" name="email" required>
+                <div style="padding-bottom: 20px;"></div>
+                <div style="padding-bottom: 10px;"><h3 class="form-title1"><b>Mensaje</b></h3><h3 class="form-title2"> (required)</h3></div>
+                <textarea name="message" required></textarea>
+                <div style="padding-bottom: 20px;"></div>
+            
+                                <!-- hCaptcha: Recommended for Advanced Spam Protection. -->
+                <div style="display: flex; justify-content: center; align-content: center;"><div class="h-captcha" data-captcha="true"></div></div>
+                <div style="padding-bottom: 20px;"></div>
+                <div style="display: flex; justify-content: center; align-content: center;"><button type="submit"><b>Enviar</b></button></div>
+            
+            </form>
+            
+            <!-- Required only if you are using hCaptcha or Advanced File Upload. -->
+            <script src="https://web3forms.com/client/script.js" async defer></script>
+            <script>
+                const form = document.getElementById('contactForm');
 
-                    <div class="gallery-container static" style="background-color: rgb(10 12 13); justify-content: center;">
-                    <div class="gallery-title text unselectable" style="opacity: 1; position: unset; transform: unset;"><b>Próximamente</b></div>
-                    </div>
+                form.addEventListener('submit', function (e) {
+
+                    const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
+
+                    if (!hCaptcha) {
+                        e.preventDefault();
+                        alert("Por favor valide el captcha")
+                        return
+                    }
+                });
+            </script>
             </div>
         </section>
 
